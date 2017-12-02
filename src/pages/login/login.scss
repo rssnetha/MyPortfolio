@@ -1,13 +1,22 @@
-page-login {
 
-    .title{
-        align-content: center;
-        img{
-            width: 25%;
-            height: 25%;
+
+
+page-login {
+    ion-content{
+        background-image: url('../assets/imgs/IMG_0431.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+
+        ion-list{
+            opacity: 0.5;
+            align-content: center;
+            justify-content: center;
+            margin-top: 20% !important;
+            .div{
+                opacity: inherit;
+                align-content: inherit;
+                justify-content: inherit;
+            }
         }
     }
-
-
-
 }
