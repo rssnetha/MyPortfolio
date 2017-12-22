@@ -4,18 +4,24 @@
 page-login {
     ion-content{
         background-image: url('../assets/imgs/IMG_0431.jpg');
-        background-size: contain;
+        background-size: 100% 100%;
         background-repeat: no-repeat;
-
-        ion-list{
-            opacity: 0.5;
-            align-content: center;
-            justify-content: center;
-            margin-top: 20% !important;
-            .div{
-                opacity: inherit;
-                align-content: inherit;
-                justify-content: inherit;
+        .content-div{
+            width: 100%;
+            height: 30%;
+            margin: 70% 0% 0% 0%;
+            opacity: 0.9;
+            ion-list{
+                opacity: inherit;                
+                align-content: center;
+            }
+            div{
+                opacity: inherit;                
+                button{
+                    float: left;
+                    width: 80%;
+                    margin-left: 10%;
+                }
             }
         }
     }
